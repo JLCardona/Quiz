@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AnimalQuiz</string>
+    <string name="question_cheetah">The cheetah not roars.</string>
+    <string name="question_alligator">The alligator and the crocodile are the same.</string>
+    <string name="question_hippo">The hippo is the animal with the most powerful bite in the world.</string>
+    <string name="question_bats">Bats are not blind.</string>
+    <string name="question_polar">Polar bears have black fur and are covered in transparent fur.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">RIGHT!</string>
+</resources>
