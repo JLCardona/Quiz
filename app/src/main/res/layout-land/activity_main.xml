@@ -8,28 +8,30 @@
 
     <TextView
         android:id="@+id/question_text_view"
-        android:layout_width="406dp"
-        android:layout_height="133dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="1dp"
+        android:layout_width="654dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="9dp"
         android:padding="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="410dp"
-        android:layout_height="357dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="168dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="392dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="5dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question_text_view">
 
@@ -56,7 +58,18 @@
             android:layout_height="wrap_content"
             android:onClick="mNextButton"
             android:text="@string/next_button"
-            tools:ignore="OnClick" />
+            tools:ignore="OnClick" /><![CDATA[
+
+
+
+        />
+
+
+
+        />
+
+
+    ]]>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
